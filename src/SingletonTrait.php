@@ -43,4 +43,13 @@ trait SingletonTrait
     private function __wakeup()
     {
     }
+
+    /**
+     * Private serialize method to prevent serializing of the *Singleton*
+     *
+     * @return void
+     */
+    private function __sleep()
+    {
+    }
 }
