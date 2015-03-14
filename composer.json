@@ -1,9 +1,9 @@
 {
-    "name": "php-daddy/contract-singleton",
-    "description": "Singleton Contract or Interface",
-    "version": "1.1.0",
+    "name": "php-daddy/contract-template",
+    "description": "Template Contract or Interface",
+    "version": "1.0.0",
     "keywords": [
-        "singleton",
+        "template",
         "contract",
         "interface",
         "php-daddy"
@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpDaddy\\Contract\\Singleton\\": "src/"
+            "PhpDaddy\\Contract\\TemplateName\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PhpDaddy\\Test\\": "tests/",
-            "PhpDaddy\\Stub\\": "stub/"
+            "PhpDaddy\\Contract\\TemplateName\\Test\\": "tests/",
+            "PhpDaddy\\Contract\\TemplateName\\Stub\\": "stub/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1.*-dev"
+            "dev-master": "1.0.*-dev"
         }
     },
     "minimum-stability": "dev",
